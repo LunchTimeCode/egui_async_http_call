@@ -1,0 +1,26 @@
+[package]
+name = "tptool_debug"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.21.0"
+eframe = { version = "0.21.3", default-features = false, features = [
+  "default_fonts", # Embed the default egui fonts.
+  "glow",          # Use the glow rendering backend. Alternative: "wgpu".
+  "persistence",   # Enable restoring app state when restarting the app.
+] }
+tracing-subscriber = "0.3"
+serde = "1"
+serde_derive = "1"
+
+egui_logger= "0.3.0"
+
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+
+egui_extras ="0.21"
+
+log = "0.4.17"

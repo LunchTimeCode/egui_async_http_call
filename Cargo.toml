@@ -23,4 +23,4 @@ tokio = { version = "1", features = ["full"] }
 
 egui_extras ="0.21"
 
-log = "0.4.17"
+log = "0.4.21"

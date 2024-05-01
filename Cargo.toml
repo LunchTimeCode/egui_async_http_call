@@ -13,8 +13,8 @@ eframe = { version = "0.21.3", default-features = false, features = [
   "persistence",   # Enable restoring app state when restarting the app.
 ] }
 tracing-subscriber = "0.3"
-serde = "1"
-serde_derive = "1"
+serde = "1.0.200"
+serde_derive = "1.0.200"
 
 egui_logger= "0.3.0"
 

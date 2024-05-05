@@ -18,7 +18,7 @@ serde_derive = "1"
 
 egui_logger= "0.3.0"
 
-reqwest = { version = "0.11", features = ["json"] }
+reqwest = { version = "0.12", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 
 egui_extras ="0.21"

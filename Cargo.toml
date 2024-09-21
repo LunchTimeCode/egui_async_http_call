@@ -16,7 +16,7 @@ tracing-subscriber = "0.3"
 serde = "1"
 serde_derive = "1"
 
-egui_logger= "0.3.0"
+egui_logger= "0.6.0"
 
 reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
